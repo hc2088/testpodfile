@@ -1,0 +1,35 @@
+{
+  "name": "astaticlib",
+  "version": "10.14.0",
+  "summary": "astaticlib",
+  "homepage": "git@github.com:hc2088/apple.git",
+  "description": "#定位工程",
+  "license": {
+    "type": "applelicense",
+    "text": "\n"
+  },
+  "authors": {
+    "huchu": "xx@github.com",
+    "company": "apple@github.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "git@github.com:hc2088/apple.git",
+    "tag": "10.14.0"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "CoreGraphics"
+  ],
+  "requires_arc": true,
+  "header_dir": "astaticlib",
+  "vendored_libraries": "Products/*.a",
+  "source_files": "Products/**/*.{h,m}",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC",
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited)"
+  }
+}

@@ -1,0 +1,6 @@
+framework module sourcecode {
+  umbrella header "sourcecode-umbrella.h"
+
+  export *
+  module * { export * }
+}

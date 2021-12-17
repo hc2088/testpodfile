@@ -1,0 +1,34 @@
+{
+  "name": "sourcecode",
+  "version": "10.14.0",
+  "summary": "sourcecode",
+  "homepage": "git@github.com:hc2088/apple.git",
+  "description": "#定位工程",
+  "license": {
+    "type": "applelicense",
+    "text": "\n"
+  },
+  "authors": {
+    "Fled Zeng": "zengqinglong@58.com",
+    "company": "58app@58.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "git@github.com:hc2088/apple.git",
+    "tag": "10.14.0"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "CoreGraphics"
+  ],
+  "requires_arc": true,
+  "header_dir": "sourcecode",
+  "source_files": "**/*.{h,m}",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC",
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited)"
+  }
+}

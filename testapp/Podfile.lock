@@ -1,0 +1,26 @@
+PODS:
+  - astaticlib (10.14.0)
+  - dynamicframework (10.14.0)
+  - sourcecode (10.14.0)
+
+DEPENDENCIES:
+  - astaticlib (from `../astaticlib`)
+  - dynamicframework (from `../dynamicframework`)
+  - sourcecode (from `../sourcecode`)
+
+EXTERNAL SOURCES:
+  astaticlib:
+    :path: "../astaticlib"
+  dynamicframework:
+    :path: "../dynamicframework"
+  sourcecode:
+    :path: "../sourcecode"
+
+SPEC CHECKSUMS:
+  astaticlib: b39e7ebd62c5c97ed156fe23ff7e398628467c03
+  dynamicframework: 500daed87eb45420730ca1c0727ad612e5158df0
+  sourcecode: 7059f07c967fa42de6bdef0ecd94644dc1e9d78d
+
+PODFILE CHECKSUM: 62f1c6c2a39fcff04d66feffea5df9d25c62e32b
+
+COCOAPODS: 1.11.2
